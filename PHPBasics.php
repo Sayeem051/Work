@@ -12,16 +12,8 @@
         <input type="submit" name="submit">
     </form>
     <?php
-        if(isset($_POST['submit'])){
-            switch($_POST["grade"]){
-                case "A+": echo "Awesome!"; break;
-                default: echo "Invalid Input";
-            }
-        }
-        $g=array("what", "is", "this?");
-        foreach($g as $G){
-            echo $G."<br>";
-        }
+        $var="whatever";
+        echo ucfirst($var);
     ?>
 </body>
 </html>
