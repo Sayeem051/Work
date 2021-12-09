@@ -18,7 +18,10 @@
                 default: echo "Invalid Input";
             }
         }
-        
+        $g=array("what", "is", "this?");
+        foreach($g as $G){
+            echo $G."<br>";
+        }
     ?>
 </body>
 </html>
